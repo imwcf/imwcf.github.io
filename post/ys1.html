@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="隐私,">
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="隐私的话题很大，大到我们全人类可能都是楚门世界中的一员，那个无形的老大哥注视着我们的一举一动。 隐私很小，小到你发朋友圈里的一张照片，那个照片的角度，周边的建筑物，也许就暴露了你位置。">
+<meta name="keywords" content="隐私">
+<meta property="og:type" content="article">
+<meta property="og:title" content="隐私保护（一）">
+<meta property="og:url" content="http://yoursite.com/post/ys1.html">
+<meta property="og:site_name" content="成の言">
+<meta property="og:description" content="隐私的话题很大，大到我们全人类可能都是楚门世界中的一员，那个无形的老大哥注视着我们的一举一动。 隐私很小，小到你发朋友圈里的一张照片，那个照片的角度，周边的建筑物，也许就暴露了你位置。">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2019-11-13T08:47:10.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="隐私保护（一）">
+<meta name="twitter:description" content="隐私的话题很大，大到我们全人类可能都是楚门世界中的一员，那个无形的老大哥注视着我们的一举一动。 隐私很小，小到你发朋友圈里的一张照片，那个照片的角度，周边的建筑物，也许就暴露了你位置。">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/post/ys1.html">
+
+
+
+
+
+  <title>隐私保护（一） | 成の言</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">成の言</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/post/ys1.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Cheng">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="成の言">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">隐私保护（一）</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-09-10T23:25:53+08:00">
+                2019-09-10
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/互联网/" itemprop="url" rel="index">
+                    <span itemprop="name">互联网</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>隐私的话题很大，大到我们全人类可能都是楚门世界中的一员，那个无形的老大哥注视着我们的一举一动。</p>
+<p>隐私很小，小到你发朋友圈里的一张照片，那个照片的角度，周边的建筑物，也许就暴露了你位置。</p>
+ <a id="more"></a>
+<p>宏观上来说，我们的隐私，我们做不了主。</p>
+<p>你要用互联网产品，对方如何保管和使用你的数据，并不是你能控制的，互联网公司自己都无法控制。</p>
+<p>所以我们只能从狭隘的角度来探讨，作为一个小市民，我们能做什么，我们防不了君子，但是可以防小人。</p>
+<p> &nbsp;</p>
+<h4 id="开启手机SIM卡的PIN码"><a href="#开启手机SIM卡的PIN码" class="headerlink" title="开启手机SIM卡的PIN码"></a>开启手机SIM卡的PIN码</h4><p>我们都知道手机有锁屏密码，SIM卡也有自己的锁定密码，只是默认我们都很少去打开。</p>
+<p>跟一台硬件手机相比，我们更在乎手机里面的内容，有谁在乎过SIM卡的安全。</p>
+<p>当你牵着男女朋友的手在人海中甜蜜地逛街，一摸口袋，手机丢了。</p>
+<p>而顺走你手机的人只需一个回形针就可以轻而易举取出你的SIM卡，然后装在自己的手机里。</p>
+<p>并在你挂失SIM之前登陆你的支付宝，你的微信，选择忘记密码，重置密码……</p>
+<p>开启你的PIN码，并且像记你的男女朋友生日一样牢记你的PIN码。</p>
+<hr>
+<h4 id="你的元数据正在出卖你"><a href="#你的元数据正在出卖你" class="headerlink" title="你的元数据正在出卖你"></a>你的元数据正在出卖你</h4><p>元数据，可以理解为数据的数据。</p>
+<p>当你收到一个word文档，excel或者是ppt，右键点击属性-详细信息，你可以知道知道了这个文档的作者是谁，编辑日期，用的是什么模板。</p>
+<p>当你给客户做方案，别人一看文档用的尽然是海康的方案模板，这种感觉就像你的女朋友拿着别的男人的钱给你买礼物。</p>
+<p>当你收到一份电子邮件，选择查看邮件详情，查看origingn ip，就可以知道发送者的原始ip是多少，就知道对方是在哪里给你发的这份邮件。</p>
+<p>选择可信任的邮箱，比方gmail，icloud，是会加密你的发送邮件的ip。</p>
+<p>大晚上的，你发微信问你的daring：在哪呢。</p>
+<p>对方拍了一张自拍照说在家呢。</p>
+<p>你打开微信，看着照片中可爱的daring，点击图片，查看原图，并下载照片到你的相册。</p>
+<p>打开iphone的相册选择照片向上划就可以看到了照片的地址位置。</p>
+<p>你一看位置果真是在家———如家。</p>
+<p>发送微信的时候选择照片，如果选择原图是会附带照片的地理位置信息，而默认照相机会调用手机的GPS信息。</p>
+<p>如果你用元数据查看软件，你还可以看到这张照片的拍摄时间，曝光度，用的什么手机。</p>
+<hr>
+<h4 id="使用手机小号"><a href="#使用手机小号" class="headerlink" title="使用手机小号"></a>使用手机小号</h4><p>这里我推荐阿里小号，非常的便宜，租房，找中介必备，或者是网上发布信息。</p>
+<blockquote>
+<p>有一次，去开车，有一辆车挡在了出口，车牌是浙A.XUxxx，刚好车上面有个挪车电话。</p>
+<p>因为好奇，打开支付宝，然后给这个账号转账，支付宝会显示实名，当然姓是隐藏的，我输入了车牌上的徐，验证通过。</p>
+</blockquote>
+<p>所以我建议大家把支付宝的实名关掉。微信手机查找好友关掉。相信我，没有那么多人想加你好友。</p>
+<p>车上的挪车电话使用手机小号。</p>
+<p>你寄快递真的需要写真实的姓名和真实的手机号码吗，你可以写牛警官，你可以用手机小号。</p>
+<p>你真的需要填写详细的地址吗，你没必要精确到你的房间号。</p>
+<p>另外在你扔快递盒的时候记得把上面的快递信息去掉。</p>
+<hr>
+<h4 id="你会起你的ID吗"><a href="#你会起你的ID吗" class="headerlink" title="你会起你的ID吗"></a>你会起你的ID吗</h4><p>我们有微信ID，阿里云ID，邮箱ID，等等。</p>
+<p>你可以通过一个微信ID大概猜出这个人的姓名年龄职业，当然这些涉及到社会工程学的范畴。</p>
+<p>很多人喜欢将自己的出生年月日作为自己的网络ID。</p>
+<p>起姓名也是一样的，你的名字越独特，重名的概率就越小，你的辨识度就越高。</p>
+<p>假设你的起的名字叫XYZ，全国就10个人叫你的这个名字，那网络上如果是XYZ的信息，那是你的概率是很大了。</p>
+<p>如果你叫张三，全国可能有10万个叫张三的人，那你的辨识度是很低的。</p>
+<hr>
+<h4 id="贴上笔记本的摄像头"><a href="#贴上笔记本的摄像头" class="headerlink" title="贴上笔记本的摄像头"></a>贴上笔记本的摄像头</h4><p>在英剧《黑镜》中，有一集讲述一个纯情的小男生回到家</p>
+<p>把自己反锁在房间里，打开了笔记本，上了男生都喜欢上的不可描述的网站，然后做了不可描述的事情。</p>
+<p>一会手机就收到了一条视频，视频的内容正是自己不可描述的表情。</p>
+<p>之后这个纯情小男生就被威胁，被黑客操作抢了银行，一步步走向深渊。</p>
+<p>如今我想基本很少有人会用电脑的摄像头视频，更不会用它来拍照。</p>
+<p>facebook的小扎同学，连电脑的声音孔都贴起来了。</p>
+<p>你没小扎有钱，但是你不缺黑胶带的钱呀。</p>
+<p>借用尼采的话：当你每天注视电脑的时候，电脑上面那个深邃的小黑点也在注视着你。</p>
+<p>&nbsp;</p>
+<p>船停在港湾是最安全的，但是那不是造船的目的，安全和便捷是相对的，我们要做的是如何达到一种平衡。</p>
+<p>我希望我的朋友们都能保护好自己和家人。</p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/隐私/" rel="tag"># 隐私</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/post/tyz.html" rel="next" title="拖延症">
+                <i class="fa fa-chevron-left"></i> 拖延症
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/post/xa.html" rel="prev" title="西安">
+                西安 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">Cheng</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">60</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">19</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">60</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#开启手机SIM卡的PIN码"><span class="nav-number">1.</span> <span class="nav-text">开启手机SIM卡的PIN码</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#你的元数据正在出卖你"><span class="nav-number">2.</span> <span class="nav-text">你的元数据正在出卖你</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#使用手机小号"><span class="nav-number">3.</span> <span class="nav-text">使用手机小号</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#你会起你的ID吗"><span class="nav-number">4.</span> <span class="nav-text">你会起你的ID吗</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#贴上笔记本的摄像头"><span class="nav-number">5.</span> <span class="nav-text">贴上笔记本的摄像头</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; 2018 &mdash; <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Cheng</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
