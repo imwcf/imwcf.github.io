@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://imwcf.com/post/zhuacheche.html</loc>
+    
+    <lastmod>2024-07-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://imwcf.com/post/dyczlb.html</loc>
     
     <lastmod>2024-07-03</lastmod>
@@ -2894,6 +2903,13 @@
   
   <url>
     <loc>https://imwcf.com/tags/%E5%9F%BA%E7%9D%A3/</loc>
+    <lastmod>2024-07-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://imwcf.com/tags/%E7%8E%A9%E5%85%B7%E8%BD%A6/</loc>
     <lastmod>2024-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
