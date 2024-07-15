@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://imwcf.com/post/meishi.html</loc>
+    
+    <lastmod>2024-07-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://imwcf.com/post/jmls.html</loc>
     
     <lastmod>2024-07-15</lastmod>
@@ -2958,6 +2967,13 @@
   
   <url>
     <loc>https://imwcf.com/tags/%E4%BD%9B%E6%95%99/</loc>
+    <lastmod>2024-07-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://imwcf.com/tags/%E7%BE%8E%E9%A3%9F/</loc>
     <lastmod>2024-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
